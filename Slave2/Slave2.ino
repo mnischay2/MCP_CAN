@@ -3,8 +3,8 @@
 #include <SPI.h>
 #include <mcp_can.h>
 
-const int switchPin = 2; // Switch pin
-const int ledPin = 13;   // LED pin
+const int switchPin = 5; // Switch pin
+const int ledPin = 6;   // LED pin
 
 // CAN variables
 const int SPI_CS_PIN = 10; // CS pin for MCP2515
